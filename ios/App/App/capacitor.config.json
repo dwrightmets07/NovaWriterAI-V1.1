@@ -1,0 +1,9 @@
+{
+	"appId": "com.novawriter.app",
+	"appName": "NovaWriter",
+	"webDir": "dist/public",
+	"ios": {
+		"contentInset": "always"
+	},
+	"packageClassList": []
+}

@@ -1,0 +1,32 @@
+NovaWriter iOS Build - October 31, 2025
+=======================================
+
+✅ INCLUDES ALL THREE REQUIRED FEATURES:
+
+1. Stripe Fix (10/25/2025)
+   - Graceful handling of missing Stripe keys
+   - App won't crash if VITE_STRIPE_PUBLIC_KEY is missing
+   - File: client/src/pages/SubscribePage.tsx
+   - Code: const stripePromise = stripePublicKey ? loadStripe(stripePublicKey) : null;
+
+2. AI Writing Style Features (Last Night)
+   - Writing style learning and analysis
+   - User writing sample uploads
+   - Personalized AI suggestions
+   - File: client/src/pages/WritingStylePage.tsx
+   - Database: writing_samples, style_profiles tables
+
+3. iOS Screen Size Fixes (Today)
+   - Collapsible sidebar with hamburger menu
+   - Fixed header overlap on iPhone
+   - Mobile-responsive layout improvements
+   - Files: client/src/components/ui/sidebar.tsx
+
+BUILD DETAILS:
+- Bundle: index-BziI_TT7.js
+- Stripe Key: EMBEDDED (pk_live_51QU8qh...)
+- Build Time: Fri Oct 31 17:29:40 UTC 2025
+- Build Method: Fresh rebuild from current codebase
+- Source: All current files from repository
+
+VERIFIED: This build contains ALL requested features!

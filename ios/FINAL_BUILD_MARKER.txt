@@ -1,0 +1,5 @@
+FRESH_BUILD: Fri Oct 31 05:29:40 PM UTC 2025
+BUNDLE: index-BziI_TT7.js
+STRIPE_KEY_EMBEDDED: YES
+HAS_GRACEFUL_STRIPE_HANDLING: YES (won't crash if key missing)
+BUILD_METHOD: Complete rebuild with current code
